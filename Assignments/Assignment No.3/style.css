@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: silver;
+    padding: 2rem 0;
+}
+
+.page_title
+{
+    background-color: hsla(0, 100%, 100%, 0.5);
+    margin: 0 0 2rem 0;
+    padding: 2rem 5rem;
+}
+
+.page_title h2
+{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.pH_scale_strip
+{
+    padding: 1rem 5rem;
+}
+
+.pH_scale_strip h4
+{
+    color: #3f3f3f;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pH_scale_strip:first-child h4, .pH_scale_strip:last-child h4, .pH_scale_strip:nth-child(8) h4
+{
+    color: #e2dfdf;
+}
+
+.pH_value_14 { background-color: #003A6B; }
+
+.pH_value_13 { background-color: #1B5886; }
+
+.pH_value_12 { background-color: #3776A1; }
+
+.pH_value_11 { background-color: #5293BB; }
+
+.pH_value_10 { background-color: #6EB1D6; }
+
+.pH_value_9 { background-color: #89CFF1; }
+
+.pH_value_8 { background-color: #A6DAF5; }
+
+.pH_value_7 { background-color: #358D03; }
+
+.pH_value_6 { background-color: #FCCBE9; }
+
+.pH_value_5 { background-color: #FAB8E1; }
+
+.pH_value_4 { background-color: #F7A2D3; }
+
+.pH_value_3 { background-color: #F38BC8; }
+
+.pH_value_2 { background-color: #EF6EB8; }
+
+.pH_value_1 { background-color: #EB50A9; }
+
+.pH_value_0 { background-color: #E73399; }
